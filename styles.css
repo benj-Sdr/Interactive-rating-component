@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  font-family: 'Overpass', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Overpass', sans-serif;*/
+
+main {
+  background-color: hsl(213, 19%, 18%);
+  margin: 100px 20px;
+  padding: 2em 1em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
+
+}
+.img-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid hsl(216, 12%, 54%)*/
+}
+h2, img, p, button, span {
+  margin: 0;
+}
+h2 {
+ color: hsl(0, 0%, 100%);
+}
+.rating-txt {
+  margin-bottom: 20px;
+}
+.img-home {
+  width: 16px;
+  height: 16px;
+
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color:  hsl(213, 19%, 18%);
+}
+span {
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  background-color: #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+}
+button {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  background-color:  hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: 0;
+  cursor: pointer;
+}
+span:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+span:active {
+  background-color: hsl(25, 97%, 53%);
+}
+button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  background-color:  hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: 0;
+  cursor: pointer;
+}
+input:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+/*Thank you html page*/
+
+.thanks-div {
+  display: flex;
+  justify-content: center;
+}
+.thanks-img {
+  width: 150px;
+  height: 100px;
+}
+.thanks-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.thanks-note > h2 {
+  text-align: center;
+}
+.chosen-rating {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid hsl(213, 19%, 18%);
+  background-color: #505050;
+  color: hsl(25, 97%, 53%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
